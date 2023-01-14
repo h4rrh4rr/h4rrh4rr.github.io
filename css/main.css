@@ -182,7 +182,7 @@ a:focus {
     -moz-background-size: cover; */
     background-size: contain;
     /* -o-background-size: cover; */
-    background-position: center top;
+    /* background-position: center top; */
 }
 
 @media(min-width:992px) {
@@ -196,8 +196,9 @@ a:focus {
 }
 
 .intro .intro-body {
-    display: table-cell;
-    vertical-align: middle;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    padding-top: 15px;
 }
 
 .brand-heading {
